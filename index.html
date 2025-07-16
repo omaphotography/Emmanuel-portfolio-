@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXA CREATIVE DESIGNER</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="1000258714.JPG" type="image/x-icon" />
+  <style>
+    .fade-in {
+      animation: fadeInUp 1s ease-in-out both;
+    }
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <img class="logo" src="1000258714.JPG" alt="NEXA CREATIVE DESIGNER logo">
+      <h1 class="logo"></h1>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <nav>
+        <ul id="navLinks" class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero fade-in">
+    <div class="container">
+      <div class="hero-text">
+        <h2>Let us know how you want your design to lok like</h2>
+        <p>We design an eye-catching fliers with logos.</p>
+        <a href="#service" class="btn">Explore our Services</a>
+      </div>
+      <div class="hero-img">
+        <img src="istockphoto-1202045389-612x612.jpg" alt="Meet us" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about fade-in" id="about">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>
+        We work towards the certisfaction of our clients by providing top-notch design services 
+        that meet their needs and exceed their expectations. 
+        Our team is dedicated to delivering high-quality, 
+        innovative designs that help our clients stand out in a competitive market.
+      </p>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs fade-in" id="service">
+    <div class="container">
+      <h2>Our Service</h2>
+      <div class="program-grid">
+        <div class="program-item">
+          <img src="Social Media Designs.jpg" alt="service 1">
+          <h3>Social Media Designs</h3>
+          <p></p>
+        </div>
+        <div class="program-item">
+          <img src="1000159147.jpg" alt="service 2">
+          <h3>Brand Logos</h3>
+          <p></p>
+        </div>
+        <div class="program-item">
+          <img src="1000222303.jpg" alt="service 3">
+          <h3>Church Design</h3>
+          <p></p>
+        </div>
+        <div class="program-item">
+          <img src="1000012465.jpg" alt="service 4">
+          <h3>Beauty Designs</h3>
+          <p>.</p>
+        </div>
+        <div class="program-item">
+          <img src="1000041882.jpg" alt="service 5">
+          <h3>Gadget design</h3>
+          <p></p>
+        </div>
+        <div class="program-item">
+          <img src="1000021079.jpg" alt="service 6">
+          <h3>Food Design</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIS Programs Section 
+  <section class="sis-programs fade-in" id="sis">
+    <div class="container">
+      <h2>Our Academic Programs</h2>
+      <p class="intro-text">Explore our diverse range of postgraduate and professional offerings:</p>
+      <ul class="program-list">
+        <li>MA in Ethics, Peace, and Human Rights</li>
+        <li>MA in Global Environmental Policy</li>
+        <li>MA in Global Governance, Politics, and Security</li>
+        <li>MA in Global Governance, Politics, and Security: Quantitative Economic Methods (STEM)</li>
+        <li>MA in Intercultural and International Communication</li>
+        <li>MA in International Affairs Policy and Analysis</li>
+        <li>MA in International Affairs: Natural Resources and Sustainable Development</li>
+        <li>MA in International Affairs: U.S. Foreign Policy and National Security</li>
+        <li>MA in International Development</li>
+        <li>MA in International Peace and Conflict Resolution</li>
+        <li>MS in International Relations and Business (online)</li>
+        <li>MA in International Relations (online)</li>
+        <li>Master of International Service (International Studies Track)</li>
+        <li>Master of International Service (for Experienced Professionals)</li>
+        <li>MS in Development Management</li>
+        <li>PhD in International Relations</li>
+      </ul>
+      <p class="note">
+        Also available: Accelerated Master’s programs, Dual degrees (e.g., JD/MA, MA/MBA), Graduate certificates, and non-degree options.
+      </p>
+    </div>
+  </section>-->
+
+  <!-- Contact Section -->
+  <section class="contact fade-in" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="number">Phone number</label>
+          <input type="Tel" id="phone number" name="phone number" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Exceptional Leadership Institute. All Rights Reserved.</p>
+      <i class="fas" fa-envelope> 
+      <p>Email: <a href="emmanuelakin444@gmail.com?subject=Contact%20from%20Website">emmanuelakin444@gmail.com</a></p></i>
+      <p>Phone: <a href="tel:+2348012345678">+2348115736772</a></p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
